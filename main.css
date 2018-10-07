@@ -34,7 +34,9 @@ image{
     /* height: 440px; */
     overflow: hidden;
 }
-
+.mod a{
+    color: #666;
+}
 
 .mod .top{
     height: 54px;    
@@ -214,9 +216,7 @@ a:hover .item-thumbnail img {
 .entrance dt {   
      font: 700 14px/24px "Microsoft yahei";
 }
-.entrance a{
-    color: #666;
-}
+
 .entrance dd {
     margin-left: -10px;
     overflow: hidden;
@@ -231,6 +231,9 @@ a:hover .item-thumbnail img {
     height: auto;
     padding: 0 8px;
     margin: 7px 0 5px;
+}
+.entrance a:hover{
+    color:#3983e5;
 }
 .icon_hot {
     width: 11px;
